@@ -1,12 +1,12 @@
-[{
+[
+  {
   "_id": {
     "$oid": "69066fe9cab89082f4ad8007"
   },
   "nombre": "Lucía García",
   "telefono": "+34 622 333 111",
   "email": "lucia@culdampolla.com",
-  "cargo": "Vendedora",
-  "venta_id": "_id\n69071f92cab89082f4ad8013"
+  "cargo": "Vendedora"  
 },
 {
   "_id": {
@@ -25,4 +25,5 @@
   "telefono": "+34 643 336 783",
   "email": "elena@culdampolla.com",
   "cargo": "Vendedora"
-}]
+}
+]

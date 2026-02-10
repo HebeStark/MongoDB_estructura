@@ -1,0 +1,56 @@
+[
+  {
+  "_id": {
+    "$oid": "68f9fdc706264c4ff8a14bd2"
+  },
+  "nombre": "Paula Fernández",
+  "direccion": {
+  "calle":"Calle de la Luna",
+  "numero": 45,
+  "ciudad": "Madrid",
+  "codigo_postal": "28004",
+  "pais": "España"
+  },
+  "telefono": "+34 600 123 456",
+  "email": "lauraF@gmail.com",
+  "fecha_registro": { "$date": "2023-01-15T10:20Z" },
+  "recomendado_por": null
+},
+{
+  "_id": {
+    "$oid": "68f9fdc706264c4ff8a14bd3"
+  },
+  "nombre": "Carlos Martínez",
+  "direccion": {
+   "calle":"Avenida del Sol",
+   "numero": 78,  
+   "ciudad": "Madrid",
+   "codigo_postal": "28002", 
+   "pais":"España"
+  },
+  "telefono": "+34 600 654 321",
+  "email": "carlosMar@gmail.com",
+  "fecha_registro": { "$date": "2022-11-20T13:25Z" },
+  "recomendador_por": {
+    "$oid": "68f9fdc706264c4ff8a14bd4"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f9fdc706264c4ff8a14bd4"
+  },
+  "nombre": "Ana Gómez",
+  "direccion": {
+    "calle": "Plaza Mayor",
+    "numero": 12,
+    "ciudad":"Madrid",
+    "codigo_postal": "28013",
+    "pais":"España"
+  },
+  "telefono": "+34 600 789 012",
+  "email": "gomezA@gmail.com",
+  "fecha_registro": { "$date": "2023-03-05T18:42Z" },
+  "recomendador_por": {"$oid": "68f9fdc706264c4ff8a14bd2"
+  }
+}
+]

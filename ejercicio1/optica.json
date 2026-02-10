@@ -267,5 +267,104 @@
       }
     }
   },
-  "relationships": []
+  "relationships": [
+    {
+      "id": "6bac5bc4-59a9-4c68-9798-c82d56f64f39",
+      "relationship": [
+        {
+          "ns": "Optica.ventas",
+          "cardinality": 1,
+          "fields": [
+            "cliente_id"
+          ]
+        },
+        {
+          "ns": null,
+          "cardinality": 1,
+          "fields": null
+        }
+      ],
+      "isInferred": false
+    },
+    {
+      "id": "23f6a8e4-28d9-4756-ae5f-70f06001fded",
+      "relationship": [
+        {
+          "ns": "Optica.ventas",
+          "cardinality": 1000,
+          "fields": [
+            "cliente_id"
+          ]
+        },
+        {
+          "ns": "Optica.clientes",
+          "cardinality": 1,
+          "fields": [
+            "_id"
+          ]
+        }
+      ],
+      "isInferred": false
+    },
+    {
+      "id": "61e9c536-0c32-41f9-8a17-36d89273cdaf",
+      "relationship": [
+        {
+          "ns": "Optica.empleados",
+          "cardinality": 1,
+          "fields": [
+            "_id"
+          ]
+        },
+        {
+          "ns": "Optica.ventas",
+          "cardinality": 1000,
+          "fields": [
+            "empleado_id"
+          ]
+        }
+      ],
+      "isInferred": false
+    },
+    {
+      "id": "5d4f59db-93df-4b94-a4ee-f209df2b6396",
+      "relationship": [
+        {
+          "ns": "Optica.ventas",
+          "cardinality": 1,
+          "fields": [
+            "gafa_id"
+          ]
+        },
+        {
+          "ns": "Optica.gafas",
+          "cardinality": 10,
+          "fields": [
+            "_id"
+          ]
+        }
+      ],
+      "isInferred": false
+    },
+    {
+      "id": "67030ccb-9774-41d7-97cf-88bb7ee27c16",
+      "relationship": [
+        {
+          "ns": "Optica.gafas",
+          "cardinality": 1000,
+          "fields": [
+            "proveedor_id"
+          ]
+        },
+        {
+          "ns": "Optica.proveedores",
+          "cardinality": 1,
+          "fields": [
+            "_id"
+          ]
+        }
+      ],
+      "isInferred": false
+    }
+  ]
 }

@@ -1,0 +1,55 @@
+[
+  {
+  "_id": { "$oid": "690661bccab89082f4ad7ff4" },
+  "marca": "Ray-Ban",
+  "graduacion": {
+      "derecho": -2.5,
+      "izquierdo": -2
+    },
+     "montura": {
+     "tipo": "Metalica",
+      "color": "Dorado"
+  },
+  "vidrios": {
+      "derecho": "Verde",
+      "izquierdo": "Verde"
+    },
+  "precio": 150,
+  "proveedor_id":{ "$oid": "68f9f23b06264c4ff8a14bcb" }
+},
+{
+  "_id": { "$oid": "690661bccab89082f4ad7ff5" },
+  "marca": "Oakley",
+  "graduacion": {
+      "derecho": -1.5,
+      "izquierdo": -1
+    },
+     "montura": {
+      "tipo": "Plástico",
+     "color": "Negro"
+    },
+  "vidrios": {
+      "derecho": "Gris",
+      "izquierdo": "Gris"
+    },
+  "precio": 200,
+  "proveedor_id": { "$oid": "68f9f23b06264c4ff8a14bcc" }
+},
+{
+  "_id": { "$oid": "690661bccab89082f4ad7ff6" },
+  "marca": "Gucci",
+  "graduacion": {
+      "derecho": -3,
+      "izquierdo": -2.5
+    },
+    "montura": {
+      "tipo": "Acetato",
+      "color": "Marrón"
+    },
+    "vidrios": {
+      "derecho": "Marrón",
+      "izquierdo": "Marrón"
+    },
+  "precio": 300,
+  "proveedor_id": { "$oid": "68f9f23b06264c4ff8a14bcc" }
+}]
