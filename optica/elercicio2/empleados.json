@@ -1,0 +1,29 @@
+[
+  {
+  "_id": {
+    "$oid": "69066fe9cab89082f4ad8007"
+  },
+  "nombre": "Lucía García",
+  "telefono": "+34 622 333 111",
+  "email": "lucia@culdampolla.com",
+  "cargo": "Vendedora"  
+},
+{
+  "_id": {
+    "$oid": "69066fe9cab89082f4ad8008"
+  },
+  "nombre": "Jorge Ramos",
+  "telefono": "+34 652 326 964",
+  "email": "jorge@culdampolla.com",
+  "cargo": "Vendedora"
+},
+{
+  "_id": {
+    "$oid": "69066fe9cab89082f4ad8009"
+  },
+  "nombre": "Elena Ortiz",
+  "telefono": "+34 643 336 783",
+  "email": "elena@culdampolla.com",
+  "cargo": "Vendedora"
+}
+]

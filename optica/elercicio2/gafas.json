@@ -1,0 +1,48 @@
+[
+  {
+    "_id": { "$oid": "690661bccab89082f4ad7ff4" },
+    "marca": "Ray-Ban",
+
+    "graduacion": {
+      "derecho": -2.5,
+      "izquierdo": -2.0
+    },
+
+    "montura": {
+      "tipo": "metalica",
+      "color": "dorado"
+    },
+
+    "vidrios": {
+      "derecho": "verde",
+      "izquierdo": "verde"
+    },
+
+    "precio_base": 150,
+
+    "proveedor": {
+      "proveedor_id": { "$oid": "68f9f23b06264c4ff8a14bcb" },
+      "nombre": "TechGear Inc.",
+      "telefono": "+1 415 555 1234"
+    },
+
+    "ventas": [
+      {
+        "fecha_hora": { "$date": "2024-05-10T14:30:00Z" },
+
+        "cliente": {
+          "cliente_id": { "$oid": "68f9fdc706264c4ff8a14bd2" },
+          "nombre": "Paula Fernández",
+          "telefono": "+34 600 123 456"
+        },
+
+        "empleado": {
+          "empleado_id": { "$oid": "69066fe9cab89082f4ad8007" },
+          "nombre": "Lucía García"
+        },
+
+        "precio_venta": 150
+      }
+    ]
+  }
+]

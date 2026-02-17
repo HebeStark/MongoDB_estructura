@@ -1,0 +1,48 @@
+[
+  {
+  "_id": { "$oid": "68f9f23b06264c4ff8a14bca" },
+  "nombre": "OptiVision S.L.",
+  "direccion": {
+    "calle": "Calle de la Tecnología",
+    "numero": 123, 
+    "ciudad":"Madrid",
+    "codigo_postal": "28001", 
+    "pais":"España"
+},
+  "telefono": "+34 912 345 678",
+  "email": "optivision@gmail.com",
+  "fax": null,
+  "nif": "B12345678"
+},
+{
+  "_id": { "$oid": "68f9f23b06264c4ff8a14bcb" },
+  "nombre": "TechGear Inc.",
+  "direccion": {
+    "calle": "Tech Avenue Suite",
+    "numero": 456,
+    "piso": 2, 
+    "ciudad": "San Francisco", 
+    "codigo_postal": "94107",
+    "pais": "Estados Unidos"
+  },
+  "telefono": "+1 415 555 1234",
+  "email": "techgear@gmail.com",
+  "fax": "+1 415 555 5678",
+  "nif": "US987654321"
+},
+{
+  "_id": { "$oid": "68f9f23b06264c4ff8a14bcc" },
+  "nombre": "Gadgets World",
+  "direccion": {
+    "calle": "Innovation Road",
+    "numero": 789,
+    "ciudad": "London",
+    "codigo_postal": "SW1A 1AA",
+    "pais" :"Reino Unido"
+  },
+  "telefono": "+44 20 7946 0958",
+  "email": "gadgets@gmail.com",
+  "fax": null,
+  "nif": "GB123456789"
+}
+]

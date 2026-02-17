@@ -1,8 +1,6 @@
 [
   {
-  "_id": {
-    "$oid": "68f9fdc706264c4ff8a14bd2"
-  },
+  "_id": { "$oid": "68f9fdc706264c4ff8a14bd2" },
   "nombre": "Paula Fernández",
   "direccion": {
   "calle":"Calle de la Luna",

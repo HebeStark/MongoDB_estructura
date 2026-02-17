@@ -37,6 +37,7 @@
     "calle": "Innovation Road",
     "numero": 789,
     "ciudad": "London",
+    "codigo_postal": "SW1A 1AA",
     "pais" :"Reino Unido"
   },
   "telefono": "+44 20 7946 0958",

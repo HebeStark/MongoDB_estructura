@@ -1,0 +1,73 @@
+[
+  {
+    "_id": { "$oid": "68f9fdc706264c4ff8a14bd2" },
+    "nombre": "Paula Fernández",
+    "direccion": {
+      "calle": "Calle de la Luna",
+      "numero": 45,
+      "ciudad": "Madrid",
+      "codigo_postal": "28004",
+      "pais": "España"
+    },
+    "telefono": "+34 600 123 456",
+    "email": "lauraF@gmail.com",
+    "fecha_registro": { "$date": "2023-01-15T10:20:00Z" },
+    "recomendado_por": null,
+
+    "compras": [
+      {
+        "fecha_hora": { "$date": "2024-05-10T14:30:00Z" },
+
+        "empleado": {
+          "empleado_id": { "$oid": "69066fe9cab89082f4ad8007" },
+          "nombre": "Lucía García"
+        },
+
+        "gafas": [
+          {
+            "gafa_id": { "$oid": "690661bccab89082f4ad7ff4" },
+            "marca": "Ray-Ban",
+            "graduacion": { "derecho": -2.5, "izquierdo": -2.0 },
+            "montura": { "tipo": "metalica", "color": "dorado" },
+            "vidrios": { "derecho": "verde", "izquierdo": "verde" },
+            "precio_venta": 150
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "_id": { "$oid": "68f9fdc706264c4ff8a14bd3" },
+    "nombre": "Carlos Martínez",
+    "direccion": {
+      "calle": "Avenida del Sol",
+      "numero": 78,
+      "ciudad": "Madrid",
+      "codigo_postal": "28002",
+      "pais": "España"
+    },
+    "telefono": "+34 600 654 321",
+    "email": "carlosMar@gmail.com",
+    "fecha_registro": { "$date": "2022-11-20T13:25:00Z" },
+    "recomendado_por": { "$oid": "68f9fdc706264c4ff8a14bd4" },
+    "compras": []
+  },
+
+  {
+    "_id": { "$oid": "68f9fdc706264c4ff8a14bd4" },
+    "nombre": "Ana Gómez",
+    "direccion": {
+      "calle": "Plaza Mayor",
+      "numero": 12,
+      "ciudad": "Madrid",
+      "codigo_postal": "28013",
+      "pais": "España"
+    },
+    "telefono": "+34 600 789 012",
+    "email": "gomezA@gmail.com",
+    "fecha_registro": { "$date": "2023-03-05T18:42:00Z" },
+    "recomendado_por": { "$oid": "68f9fdc706264c4ff8a14bd2" },
+    "compras": []
+  }
+]
