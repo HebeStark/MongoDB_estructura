@@ -16,6 +16,14 @@ La interfaz muestra:
 -Detalles de cada gafa adquirida
 -Empleado que realizó la venta
 
+## Decisión de modelado
+
+Se aplica un modelo embebido orientado a consulta, almacenando las compras dentro del documento clientes.
+Como la vista siempre muestra cliente + compras, estas se almacenan embebidas.
+Sin embargo:
+Se mantienen las colecciones de gafas, empleados y proveedores como parte del dominio.
+La entidad ventas sigue existiendo conceptualmente, aunque en esta versión se representa como subdocumento embebido.
+
 ## Diagrama — Vista Cliente
 
 Archivo:
@@ -38,6 +46,16 @@ La interfaz muestra:
 -Información del proveedor
 -Clientes que la han comprado
 -Empleado que realizó cada venta
+
+## Decisión de modelado2
+
+Se diseña un modelo alternativo embebido, donde las ventas se almacenan dentro del documento gafas.
+El principio aplicado es el mismo:
+El diseño depende del punto de vista de la consulta.
+En esta versión:
+Se prioriza la lectura desde la colección gafas.
+Las ventas se embeben dentro del documento producto.
+Se mantienen las entidades clientes, empleados y proveedores como parte del dominio global.
 
 ## Diagrama — Vista Gafas
 
